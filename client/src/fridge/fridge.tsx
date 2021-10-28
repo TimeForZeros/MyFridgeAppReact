@@ -4,7 +4,7 @@ class Fridge extends Component {
   render () {
     return (
       <div>
-        Sup!
+        This is the fridge area
       </div>
     )
   }

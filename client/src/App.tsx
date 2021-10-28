@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css';
 import Fridge from './fridge/fridge';
+import MainNav from './components/navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <Fridge/>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <header>
+    <MainNav/>
+    </header>
+    <body>
+    <Fridge/>
+    </body>
+  </div>
+);
 
 export default App;
